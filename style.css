@@ -1,0 +1,32 @@
+:root {
+    --bg-color:rgb(252, 188, 198);
+    --primary-color: rgb(228, 94, 240);
+    --secundary-color: rgb(228, 116, 203);
+    --estilo-fonte: rgb(250, 0, 104);
+}
+
+body{
+    background-color: rgb(240, 212, 224);
+}
+
+.fonte{
+    color:rgb(250, 0, 104);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+.subtitulo{
+    color: rgb(250, 0, 104);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+.titulo{
+    background-color: var(--secundary-color);
+    padding: 15px;
+    border-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
